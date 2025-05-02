@@ -6,7 +6,7 @@ html {
     line-height: 1.25;
     margin: 0;
     padding: 0;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     background-color: #F2F2F2;
 }
 
@@ -16,11 +16,7 @@ body {
 }
 
 #projects {
-    background-color: bisque;
-}
-
-#bio {
-    background-color:honeydew;
+    background-color: #4D9666;
 }
 
 .title {
@@ -65,7 +61,7 @@ body {
 }
 
 .column-item {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .bio-width {
