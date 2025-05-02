@@ -7,6 +7,7 @@ html {
     margin: 0;
     padding: 0;
     font-size: 1.25rem;
+    background-color: #F2F2F2;
 }
 
 body {
@@ -64,7 +65,7 @@ body {
 }
 
 .column-item {
-    margin: 10px;
+    margin-bottom: 20px;
 }
 
 .bio-width {
@@ -80,8 +81,32 @@ a {
     color: black;
 }
 
+.nav-button {
+    border-color: black;
+    border-radius: 7px;
+    border-width: 4px;
+    border-style: solid;
+    padding: 5px;
+    height: 100%;
+}
+
 footer {
     margin: .5rem;
     font-size: .75rem;
     text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+nav {
+    position: fixed;
+    background-color: #B0D9BE;
+    width: 100%;
+    padding: .4rem;
+}
+
+.pad-top {
+    padding-top: 110px;
 }
