@@ -1,1 +1,31 @@
 {% include "header.html" with title="Home" %}
+
+<body id="top">
+    <nav class="row vcentered">
+        <div class="row-item"><a href="#top"><img src="static/Home.png" alt="Home" width="50" height="50"></a></div>
+        <div class="row-item"><a href="#projects">projects</a></div>
+        <div class="row-item"><a href="#bio">bio</a></div>
+    </nav>
+    
+    <div class="full center-text">
+        hi! i'm connor buchanan. check out what i've worked on.
+    </div>
+    
+    <div id="projects" class="full column hcentered">
+        <div class="title just-left">projects</div>
+        {% for row in project_info %}
+            <div class="column-item">
+                <a href="{{row.0}}">{{row.1}}</a>
+            </div>
+        {% endfor %}
+    </div>
+    
+    <div id="bio" class="full column hcentered">
+        <div class="title just-left">bio</div>
+        <div class="center-text column-item bio-width">
+            i'm connor buchanan. 
+            i'm a senior at the university of utah working on my bs in computer science with an emphasis in eae (games).
+            i am an eagle scout and i love camping, backpacking, and the outdoors.
+        </div>
+    </div>
+</body>
