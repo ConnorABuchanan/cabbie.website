@@ -11,9 +11,10 @@
     <div id="projects" class="full column hcentered">
         <div class="title just-left">projects</div>
         {% for row in project_info %}
-            <a href="{{row.0}}"><img src="static/{{row.2}}" height="150" class="block"/></a>
-            <div class="column-item">  
-                <a href="{{row.0}}">{{row.1}}</a>
+            <div class="column-item center-text button">  
+                <img src="static/{{row.2}}" height="150" class="block"/>
+                {{row.1}}
+                <a href="{{row.0}}"><span class="link-cover"></span></a>
             </div>
         {% endfor %}
     </div>
