@@ -131,3 +131,12 @@ nav {
   
     z-index: 1;
   }
+  
+  .pixel {
+    image-rendering: pixelated;
+  }
+  
+  .surprise {
+    position: absolute;
+    z-index: 0;
+  }
